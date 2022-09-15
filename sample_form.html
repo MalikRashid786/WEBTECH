@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample From Lecture</title>
+</head>
+<body>
+    <form action="#" oninput="c.value=parseInt(a.value) + parseInt(b.value)">
+        a
+        <input type="number" name="a" id="a">
+        + b
+        <input type="number" name="b" id="b">
+        =
+        <input type="number" name="c" id="c">
+        <br><br>
+        <label for="first_name">First Name</label>
+        <input type="text" placeholder="Name" name="first_name"><br>
+        <label for="radio1">Food</label><br>
+        <input type="radio" name="radio" id="r1" value="r1">Burger<br>
+        <input type="radio" name="radio" id="r2" value="r2">Pizza<br>
+        <input type="radio" name="radio" id="r3" value="r3">Xyz<br> <br>
+        <label for="check">Languages</label><br>
+        <input type="checkbox" name="check" id="check">Java <br>
+        <input type="checkbox" name="check" id="check">Python <br>
+        <input type="checkbox" name="check" id="check">C <br>
+        <input type="checkbox" name="check" id="check">C++ <br><br>
+        <select name="Select" id="">
+            <option value="">--Select Here--</option>
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="ECE">ECE</option>
+            <option value="CSBS" selected>CSBS</option>
+        </select><br><br>
+        <textarea name="textarea" id="text" cols="60" rows="8" placeholder="Write Somthing here.."></textarea><br><br>
+        <fieldset >
+            <legend>Personal Details</legend>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name"><br><br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name">
+        </fieldset><br><br>
+        <input list="list">
+        <datalist id="list">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Saudi Arab">Saudi Arab</option>
+            <option value="Shri Lanka">Shri Lanka</option>
+            <option value="America">America</option>
+            <option value="Japan">Japan</option>
+        </datalist>
+        <br><br>
+        <output>
+
+        </output>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

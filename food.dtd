@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE food[
+   <!ELEMENT food(name,color,price)>
+   <!ELEMENT name(#PCDATA)>
+   <!ELEMENT color(#PCDATA>
+   <!ELEMENT price(#PCDATA>
+]

@@ -1,0 +1,14 @@
+<? xml version="1.0"? encoding="UTF-8">
+<!DOCTYPE food SYSTEM "food.dtd">
+<food>
+    <fruits>
+        <name>apple</name>
+        <color>red</color>
+        <price>200</price>
+    </fruits>
+    <fruits>
+        <name>mango</name>
+        <color>yellow</color>
+        <price>20</price>
+    </fruits>
+</food>

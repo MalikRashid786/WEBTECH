@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url('login1.jpg');
+            background-size: cover;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .container{
+            height: 500px;
+            width: 600px;
+            background-color: #686A6C;
+            opacity:0.9;
+            margin-top: 80px;
+            border-radius: 5px;
+        }
+        #name{
+            width: 100%;
+            height: 70px;
+        }
+        #name .fr_name{
+            width: 30%;
+            float: left;
+            margin-left: 15px;
+        }
+        #name .fr_name input{
+            padding: 10px;
+            margin-top: 15px;
+            width: 160px;
+        }
+        #sec2{
+            background-color: beige;
+            width: 100%;
+            height: 70px;
+        }
+        #sec2 .c_sec2{
+            width: 30%;
+            float: left;
+            margin-left: 15px;
+        }
+        #sec2 input{
+            padding: 10px;
+            margin-top: 15px;
+            width: 160px;
+        }
+        #sec2 select{
+            padding: 10px;
+            margin-top: 15px;
+            width: 160px;
+        }
+        .sec3 div{
+            width: 50%;
+            float: left;
+            margin-left: 15px;
+        }
+        .sec3 select{
+            padding: 10px;
+            margin-top: 15px;
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <div class="login">
+             <h3>Login Here</h3>
+            </div>
+            <div class="form">
+             <form action="#">
+                 <div id="name">
+                    <div class="fr_name"><input type="text" name="first" id="first" placeholder="First Name" ></div>
+                    <div class="fr_name"><input type="text" name="midlle" id="midlle" placeholder="Midlle Name" ></div>
+                    <div class="fr_name"><input type="text" name="last" id="last" placeholder="Last Name" ></div>
+                 </div>
+                 <div id="sec2">
+                    <div class="c_sec2"><input type="number" name="roll_no" placeholder="Roll Number"></div>
+                    <div class="c_sec2">
+                        <select name="" id="select">
+                            <option value="">Course Here</option>
+                            <option value="">B.Tech</option>
+                            <option value="">M.Tech</option>
+                            <option value="">Pharmacy</option>
+                            <option value="">Diploma</option>
+                        </select>
+                    </div>
+                    <div class="c_sec2">
+                        <select name="" id="">
+                            <option value="">Branch Here</option>
+                            <option value="">CSE</option>
+                            <option value="">ME</option>
+                            <option value="">ECE</option>
+                            <option value="">CSE-DS/</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div class="sec3">
+                    <div><input type="date"></div>
+                    <div>
+                        <select name="" id="">
+                            <option value="">Section Here</option>
+                            <option value="">A</option>
+                            <option value="">B</option>
+                            <option value="">C</option>
+                            <option value="">D</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div>
+                    <div><input type="number" name="" id=""placeholder="Phone No"></div>
+                    <div><input type="email" name="" id="" placeholder="E-Mail"></div>
+                 </div>
+                 <div>
+                    <div><input type="radio" name="gender" id="">Male</div>
+                    <div><input type="radio" name="gender" id="">Female</div>
+                </div>
+                <div>
+                    <div>
+                        <select name="" id="">
+                            <option value="">Bucket Here</option>
+                            <option value="">AIML</option>
+                            <option value="">FULL STACK</option>
+                            <option value="">CRM</option>
+                            <option value="">CLOUD COMPUTIING</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                   <div>
+                    <input type="checkbox" name="" id=""> C
+                    <input type="checkbox" name="" id=""> C++
+                    <input type="checkbox" name="" id=""> Python
+                   </div>
+                   <div>
+                    <input type="checkbox" name="" id=""> PHP
+                    <input type="checkbox" name="" id=""> JAVA
+                    <input type="checkbox" name="" id=""> MySQl
+                   </div>
+                </div>
+             </form>
+            </div>
+         </div>
+    </center>
+
+</body>
+</html>
